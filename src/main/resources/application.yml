@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@127.0.0.1:1521:King
+    username: scott
+    password: tiger
+    driverclassname: oracle.jdbc.OracleDriver
+  freemarker:
+    suffix: .ftl  #后缀名
+    template-loader-path: classpath:/templates/ #模板加载路径 按需配置
+
+
+
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+  type-aliases-package: com.cuit.bookmanage.model

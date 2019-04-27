@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cuit.bookmanage.mapper.ticketMapper" >
+  <resultMap id="BaseResultMap" type="com.cuit.bookmanage.model.Ticket" >
+    <constructor >
+      <idArg column="ID" jdbcType="DECIMAL" javaType="java.lang.Long" />
+      <arg column="USER_ID" jdbcType="DECIMAL" javaType="java.lang.Long" />
+      <arg column="TICKET" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="EXPIRED_AT" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    ID, USER_ID, TICKET, EXPIRED_AT
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from TICKET
+    where ID = #{id,jdbcType=DECIMAL}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from TICKET
+    where ID = #{id,jdbcType=DECIMAL}
+  </delete>
+  <insert id="insert" parameterType="com.cuit.bookmanage.model.Ticket" >
+    insert into TICKET (ID, USER_ID, TICKET, 
+      EXPIRED_AT)
+    values (#{id,jdbcType=DECIMAL}, #{userId,jdbcType=DECIMAL}, #{ticket,jdbcType=VARCHAR}, 
+      #{expiredAt,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.cuit.bookmanage.model.Ticket" >
+    insert into TICKET
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        ID,
+      </if>
+      <if test="userId != null" >
+        USER_ID,
+      </if>
+      <if test="ticket != null" >
+        TICKET,
+      </if>
+      <if test="expiredAt != null" >
+        EXPIRED_AT,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=DECIMAL},
+      </if>
+      <if test="userId != null" >
+        #{userId,jdbcType=DECIMAL},
+      </if>
+      <if test="ticket != null" >
+        #{ticket,jdbcType=VARCHAR},
+      </if>
+      <if test="expiredAt != null" >
+        #{expiredAt,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.cuit.bookmanage.model.Ticket" >
+    update TICKET
+    <set >
+      <if test="userId != null" >
+        USER_ID = #{userId,jdbcType=DECIMAL},
+      </if>
+      <if test="ticket != null" >
+        TICKET = #{ticket,jdbcType=VARCHAR},
+      </if>
+      <if test="expiredAt != null" >
+        EXPIRED_AT = #{expiredAt,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where ID = #{id,jdbcType=DECIMAL}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.cuit.bookmanage.model.Ticket" >
+    update TICKET
+    set USER_ID = #{userId,jdbcType=DECIMAL},
+      TICKET = #{ticket,jdbcType=VARCHAR},
+      EXPIRED_AT = #{expiredAt,jdbcType=TIMESTAMP}
+    where ID = #{id,jdbcType=DECIMAL}
+  </update>
+</mapper>
