@@ -1,7 +1,7 @@
 package com.cuit.bookmanage.model;
 
 public class Users {
-    private Long id;
+    private Integer id;
 
     private String name;
 
@@ -9,7 +9,7 @@ public class Users {
 
     private String password;
 
-    public Users(Long id, String name, String email, String password) {
+    public Users(Integer id, String name, String email, String password) {
         this.id = id;
         this.name = name;
         this.email = email;
@@ -20,11 +20,11 @@ public class Users {
         super();
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

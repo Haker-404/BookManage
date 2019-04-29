@@ -3,15 +3,15 @@ package com.cuit.bookmanage.model;
 import java.util.Date;
 
 public class Ticket {
-    private Long id;
+    private Integer id;
 
-    private Long userId;
+    private Integer userId;
 
     private String ticket;
 
     private Date expiredAt;
 
-    public Ticket(Long id, Long userId, String ticket, Date expiredAt) {
+    public Ticket(Integer id, Integer userId, String ticket, Date expiredAt) {
         this.id = id;
         this.userId = userId;
         this.ticket = ticket;
@@ -22,19 +22,19 @@ public class Ticket {
         super();
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public Long getUserId() {
+    public Integer getUserId() {
         return userId;
     }
 
-    public void setUserId(Long userId) {
+    public void setUserId(Integer userId) {
         this.userId = userId;
     }
 

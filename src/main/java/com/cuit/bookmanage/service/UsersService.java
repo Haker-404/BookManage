@@ -9,16 +9,18 @@ import org.springframework.stereotype.Service;
  * @Date: 2019/4/26 16:14
  * @Version 1.0
  **/
-public interface UsersServie {
-    int deleteByPrimaryKey(Long id);
+public interface UsersService {
+    int deleteByPrimaryKey(Integer id);
 
     int insert(Users record);
 
     int insertSelective(Users record);
 
-    Users selectByPrimaryKey(Long id);
+    Users selectByPrimaryKey(Integer id);
 
     int updateByPrimaryKeySelective(Users record);
 
     int updateByPrimaryKey(Users record);
+
+    Users selectByEmail(String email);
 }

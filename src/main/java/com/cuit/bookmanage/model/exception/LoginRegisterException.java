@@ -5,15 +5,14 @@ package com.cuit.bookmanage.model.exception;
  * @Date: 2019/4/27 20:29
  * @Version 1.0
  **/
-public class LoginRegisterException extends Exception{
-    private String message;
-
+public class LoginRegisterException extends RuntimeException{
     public LoginRegisterException(String message) {
         super(message);
-        this.message = message;
     }
-
-    public void getException(){
-       System.out.println(message);
+    public LoginRegisterException(String message, Throwable cause) {
+        super(message, cause);
+    }
+    public LoginRegisterException(Throwable cause) {
+        super(cause);
     }
 }

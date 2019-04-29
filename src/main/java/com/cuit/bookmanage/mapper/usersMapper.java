@@ -5,15 +5,17 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 @Repository
 public interface usersMapper {
-    int deleteByPrimaryKey(Long id);
+    int deleteByPrimaryKey(Integer id);
 
     int insert(Users record);
 
     int insertSelective(Users record);
 
-    Users selectByPrimaryKey(Long id);
+    Users selectByPrimaryKey(Integer id);
 
     int updateByPrimaryKeySelective(Users record);
 
     int updateByPrimaryKey(Users record);
+
+    Users selectByEmail(String email);
 }

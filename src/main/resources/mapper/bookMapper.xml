@@ -29,7 +29,7 @@
 
 
 
-  <delete id="deleteByPrimaryKey" parameterType="java.math.BigDecimal">
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from BOOK
     where ID = #{id,jdbcType=DECIMAL}
   </delete>
@@ -102,6 +102,12 @@
       AUTHOR = #{author,jdbcType=VARCHAR},
       PRICE = #{price,jdbcType=VARCHAR},
       STATUS = #{status,jdbcType=DECIMAL}
+    where ID = #{id,jdbcType=DECIMAL}
+  </update>
+
+  <update id="updateStatusById" parameterType="com.cuit.bookmanage.model.Book">
+    update BOOK
+    set STATUS = #{status,jdbcType=DECIMAL}
     where ID = #{id,jdbcType=DECIMAL}
   </update>
 </mapper>

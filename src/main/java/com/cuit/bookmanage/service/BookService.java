@@ -27,4 +27,6 @@ public interface BookService  {
     int updateByPrimaryKey(Book record);
 
     List<Book> selectAll();
+
+    int updateStatusById(Book book);
 }

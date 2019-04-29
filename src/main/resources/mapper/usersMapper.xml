@@ -3,7 +3,7 @@
 <mapper namespace="com.cuit.bookmanage.mapper.usersMapper" >
   <resultMap id="BaseResultMap" type="com.cuit.bookmanage.model.Users" >
     <constructor >
-      <idArg column="ID" jdbcType="DECIMAL" javaType="java.lang.Long" />
+      <idArg column="ID" jdbcType="DECIMAL" javaType="java.lang.Integer" />
       <arg column="NAME" jdbcType="VARCHAR" javaType="java.lang.String" />
       <arg column="EMAIL" jdbcType="VARCHAR" javaType="java.lang.String" />
       <arg column="PASSWORD" jdbcType="VARCHAR" javaType="java.lang.String" />
@@ -12,13 +12,21 @@
   <sql id="Base_Column_List" >
     ID, NAME, EMAIL, PASSWORD
   </sql>
-  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+
+  <select id="selectByEmail" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select
+    <include refid="Base_Column_List" />
+    from USERS
+    where EMAIL = #{email,jdbcType=VARCHAR}
+  </select>
+
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
     <include refid="Base_Column_List" />
     from USERS
     where ID = #{id,jdbcType=DECIMAL}
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
     delete from USERS
     where ID = #{id,jdbcType=DECIMAL}
   </delete>

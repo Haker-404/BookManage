@@ -1,1 +1,610 @@
-﻿
+2019-04-29 19:03:06,173 DEBUG cache:44 - Couldn't find template in cache for "book/books.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 19:03:06,193 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh_CN.ftl"): Not found
+2019-04-29 19:03:06,195 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh.ftl"): Not found
+2019-04-29 19:03:06,197 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books.ftl"): Found
+2019-04-29 19:03:06,198 DEBUG cache:44 - Loading template for "book/books.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\book\\books.ftl"
+2019-04-29 19:03:06,362 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 19:03:24,382 DEBUG cache:44 - Couldn't find template in cache for "login/login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 19:03:24,384 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 19:03:24,385 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 19:03:24,386 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 19:03:24,387 DEBUG cache:44 - Loading template for "login/login.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\login.ftl"
+2019-04-29 19:03:24,390 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 19:04:27,254 DEBUG cache:44 - Couldn't find template in cache for "login/register.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 19:04:27,254 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register_zh_CN.ftl"): Not found
+2019-04-29 19:04:27,256 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register_zh.ftl"): Not found
+2019-04-29 19:04:27,258 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register.ftl"): Found
+2019-04-29 19:04:27,259 DEBUG cache:44 - Loading template for "login/register.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\register.ftl"
+2019-04-29 19:04:27,261 DEBUG cache:44 - "login/register.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 19:06:18,334 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register_zh_CN.ftl"): Not found
+2019-04-29 19:06:18,335 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register_zh.ftl"): Not found
+2019-04-29 19:06:18,337 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register.ftl"): Found
+2019-04-29 19:06:18,338 DEBUG cache:44 - "login/register.ftl"("zh_CN", UTF-8, parsed): using cached since D:\工程师软件\IDEA\IntelliJ IDEA 2018.2.5\BookManage\target\classes\templates\login\register.ftl hasn't changed.
+2019-04-29 19:06:18,339 DEBUG cache:44 - "login/register.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 19:06:40,238 DEBUG cache:44 - Couldn't find template in cache for ".ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 19:06:40,239 DEBUG cache:44 - TemplateLoader.findTemplateSource("_zh_CN.ftl"): Not found
+2019-04-29 19:06:40,240 DEBUG cache:44 - TemplateLoader.findTemplateSource("_zh.ftl"): Not found
+2019-04-29 19:06:40,240 DEBUG cache:44 - TemplateLoader.findTemplateSource(".ftl"): Not found
+2019-04-29 19:06:40,248 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register_zh_CN.ftl"): Not found
+2019-04-29 19:06:40,248 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register_zh.ftl"): Not found
+2019-04-29 19:06:40,249 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register.ftl"): Found
+2019-04-29 19:06:40,249 DEBUG cache:44 - "login/register.ftl"("zh_CN", UTF-8, parsed): using cached since D:\工程师软件\IDEA\IntelliJ IDEA 2018.2.5\BookManage\target\classes\templates\login\register.ftl hasn't changed.
+2019-04-29 19:06:40,250 DEBUG cache:44 - "login/register.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 19:09:38,872 DEBUG cache:44 - Couldn't find template in cache for "login/register.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 19:09:38,876 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register_zh_CN.ftl"): Not found
+2019-04-29 19:09:38,878 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register_zh.ftl"): Not found
+2019-04-29 19:09:38,880 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register.ftl"): Found
+2019-04-29 19:09:38,880 DEBUG cache:44 - Loading template for "login/register.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\register.ftl"
+2019-04-29 19:09:38,903 DEBUG cache:44 - "login/register.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 19:09:55,073 DEBUG cache:44 - Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 19:09:55,074 DEBUG cache:44 - TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+2019-04-29 19:09:55,075 DEBUG cache:44 - TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+2019-04-29 19:09:55,075 DEBUG cache:44 - TemplateLoader.findTemplateSource("index.ftl"): Not found
+2019-04-29 19:09:55,136 DEBUG cache:44 - Couldn't find template in cache for "book/books.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 19:09:55,137 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh_CN.ftl"): Not found
+2019-04-29 19:09:55,137 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh.ftl"): Not found
+2019-04-29 19:09:55,138 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books.ftl"): Found
+2019-04-29 19:09:55,139 DEBUG cache:44 - Loading template for "book/books.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\book\\books.ftl"
+2019-04-29 19:09:55,167 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 19:11:20,171 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register_zh_CN.ftl"): Not found
+2019-04-29 19:11:20,172 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register_zh.ftl"): Not found
+2019-04-29 19:11:20,173 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register.ftl"): Found
+2019-04-29 19:11:20,174 DEBUG cache:44 - "login/register.ftl"("zh_CN", UTF-8, parsed): using cached since D:\工程师软件\IDEA\IntelliJ IDEA 2018.2.5\BookManage\target\classes\templates\login\register.ftl hasn't changed.
+2019-04-29 19:11:20,175 DEBUG cache:44 - "login/register.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 19:11:24,864 DEBUG cache:44 - Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 19:11:24,864 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+2019-04-29 19:11:24,865 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+2019-04-29 19:11:24,866 DEBUG cache:44 - TemplateLoader.findTemplateSource("error.ftl"): Not found
+2019-04-29 20:06:00,652 DEBUG cache:44 - Couldn't find template in cache for "book/books.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:06:00,660 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh_CN.ftl"): Not found
+2019-04-29 20:06:00,663 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh.ftl"): Not found
+2019-04-29 20:06:00,664 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books.ftl"): Found
+2019-04-29 20:06:00,665 DEBUG cache:44 - Loading template for "book/books.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\book\\books.ftl"
+2019-04-29 20:06:00,745 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:06:03,440 DEBUG cache:44 - Couldn't find template in cache for "login/login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:06:03,441 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 20:06:03,441 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 20:06:03,442 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 20:06:03,442 DEBUG cache:44 - Loading template for "login/login.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\login.ftl"
+2019-04-29 20:06:03,444 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:06:12,323 DEBUG cache:44 - Couldn't find template in cache for "404.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:06:12,324 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh_CN.ftl"): Not found
+2019-04-29 20:06:12,324 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh.ftl"): Not found
+2019-04-29 20:06:12,325 DEBUG cache:44 - TemplateLoader.findTemplateSource("404.ftl"): Found
+2019-04-29 20:06:12,327 DEBUG cache:44 - Loading template for "404.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\404.ftl"
+2019-04-29 20:06:12,330 DEBUG cache:44 - "404.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:06:56,002 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh_CN.ftl"): Not found
+2019-04-29 20:06:56,003 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh.ftl"): Not found
+2019-04-29 20:06:56,004 DEBUG cache:44 - TemplateLoader.findTemplateSource("404.ftl"): Found
+2019-04-29 20:06:56,004 DEBUG cache:44 - "404.ftl"("zh_CN", UTF-8, parsed): using cached since D:\工程师软件\IDEA\IntelliJ IDEA 2018.2.5\BookManage\target\classes\templates\404.ftl hasn't changed.
+2019-04-29 20:06:56,005 DEBUG cache:44 - "404.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:07:03,775 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh_CN.ftl"): Not found
+2019-04-29 20:07:03,776 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh.ftl"): Not found
+2019-04-29 20:07:03,777 DEBUG cache:44 - TemplateLoader.findTemplateSource("404.ftl"): Found
+2019-04-29 20:07:03,777 DEBUG cache:44 - "404.ftl"("zh_CN", UTF-8, parsed): using cached since D:\工程师软件\IDEA\IntelliJ IDEA 2018.2.5\BookManage\target\classes\templates\404.ftl hasn't changed.
+2019-04-29 20:07:03,778 DEBUG cache:44 - "404.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:12:58,727 DEBUG cache:44 - Couldn't find template in cache for "login/login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:12:58,730 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 20:12:58,731 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 20:12:58,733 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 20:12:58,733 DEBUG cache:44 - Loading template for "login/login.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\login.ftl"
+2019-04-29 20:12:58,755 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:13:02,348 DEBUG cache:44 - Couldn't find template in cache for "404.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:13:02,349 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh_CN.ftl"): Not found
+2019-04-29 20:13:02,350 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh.ftl"): Not found
+2019-04-29 20:13:02,351 DEBUG cache:44 - TemplateLoader.findTemplateSource("404.ftl"): Found
+2019-04-29 20:13:02,352 DEBUG cache:44 - Loading template for "404.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\404.ftl"
+2019-04-29 20:13:02,359 DEBUG cache:44 - "404.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:14:24,115 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh_CN.ftl"): Not found
+2019-04-29 20:14:24,117 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh.ftl"): Not found
+2019-04-29 20:14:24,118 DEBUG cache:44 - TemplateLoader.findTemplateSource("404.ftl"): Found
+2019-04-29 20:14:24,119 DEBUG cache:44 - "404.ftl"("zh_CN", UTF-8, parsed): using cached since D:\工程师软件\IDEA\IntelliJ IDEA 2018.2.5\BookManage\target\classes\templates\404.ftl hasn't changed.
+2019-04-29 20:14:24,120 DEBUG cache:44 - "404.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:16:42,531 DEBUG cache:44 - Couldn't find template in cache for "login/register.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:16:42,537 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register_zh_CN.ftl"): Not found
+2019-04-29 20:16:42,539 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register_zh.ftl"): Not found
+2019-04-29 20:16:42,541 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register.ftl"): Found
+2019-04-29 20:16:42,542 DEBUG cache:44 - Loading template for "login/register.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\register.ftl"
+2019-04-29 20:16:42,569 DEBUG cache:44 - "login/register.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:16:55,112 DEBUG cache:44 - Couldn't find template in cache for "404.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:16:55,113 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh_CN.ftl"): Not found
+2019-04-29 20:16:55,114 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh.ftl"): Not found
+2019-04-29 20:16:55,116 DEBUG cache:44 - TemplateLoader.findTemplateSource("404.ftl"): Found
+2019-04-29 20:16:55,116 DEBUG cache:44 - Loading template for "404.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\404.ftl"
+2019-04-29 20:16:55,122 DEBUG cache:44 - "404.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:18:46,324 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh_CN.ftl"): Not found
+2019-04-29 20:18:46,326 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh.ftl"): Not found
+2019-04-29 20:18:46,327 DEBUG cache:44 - TemplateLoader.findTemplateSource("404.ftl"): Found
+2019-04-29 20:18:46,328 DEBUG cache:44 - "404.ftl"("zh_CN", UTF-8, parsed): using cached since D:\工程师软件\IDEA\IntelliJ IDEA 2018.2.5\BookManage\target\classes\templates\404.ftl hasn't changed.
+2019-04-29 20:18:46,329 DEBUG cache:44 - "404.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:18:46,332 ERROR runtime:59 - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> error  [in template "404.ftl" at line 9, column 7]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${error}  [in template "404.ftl" at line 9, column 5]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:467)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:389)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:358)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:330)
+	at freemarker.core.Environment.visit(Environment.java:336)
+	at freemarker.core.Environment.process(Environment.java:309)
+	at freemarker.template.Template.process(Template.java:384)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:389)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:302)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:253)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:178)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-29 20:18:46,412 DEBUG cache:44 - Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:18:46,412 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+2019-04-29 20:18:46,413 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+2019-04-29 20:18:46,413 DEBUG cache:44 - TemplateLoader.findTemplateSource("error.ftl"): Not found
+2019-04-29 20:22:00,443 DEBUG cache:44 - Couldn't find template in cache for "login/register.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:22:00,450 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register_zh_CN.ftl"): Not found
+2019-04-29 20:22:00,453 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register_zh.ftl"): Not found
+2019-04-29 20:22:00,455 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register.ftl"): Found
+2019-04-29 20:22:00,456 DEBUG cache:44 - Loading template for "login/register.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\register.ftl"
+2019-04-29 20:22:00,478 DEBUG cache:44 - "login/register.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:22:08,674 DEBUG cache:44 - Couldn't find template in cache for "404.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:22:08,675 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh_CN.ftl"): Not found
+2019-04-29 20:22:08,675 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh.ftl"): Not found
+2019-04-29 20:22:08,677 DEBUG cache:44 - TemplateLoader.findTemplateSource("404.ftl"): Found
+2019-04-29 20:22:08,677 DEBUG cache:44 - Loading template for "404.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\404.ftl"
+2019-04-29 20:22:08,683 DEBUG cache:44 - "404.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:22:08,686 ERROR runtime:59 - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> error  [in template "404.ftl" at line 9, column 7]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${error}  [in template "404.ftl" at line 9, column 5]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:467)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:389)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:358)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:330)
+	at freemarker.core.Environment.visit(Environment.java:336)
+	at freemarker.core.Environment.process(Environment.java:309)
+	at freemarker.template.Template.process(Template.java:384)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:389)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:302)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:253)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:178)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-29 20:22:08,728 DEBUG cache:44 - Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:22:08,731 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+2019-04-29 20:22:08,732 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+2019-04-29 20:22:08,734 DEBUG cache:44 - TemplateLoader.findTemplateSource("error.ftl"): Not found
+2019-04-29 20:23:47,007 DEBUG cache:44 - Couldn't find template in cache for "login/register.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:23:47,012 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register_zh_CN.ftl"): Not found
+2019-04-29 20:23:47,014 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register_zh.ftl"): Not found
+2019-04-29 20:23:47,015 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/register.ftl"): Found
+2019-04-29 20:23:47,015 DEBUG cache:44 - Loading template for "login/register.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\register.ftl"
+2019-04-29 20:23:47,045 DEBUG cache:44 - "login/register.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:23:52,272 DEBUG cache:44 - Couldn't find template in cache for "404.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:23:52,273 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh_CN.ftl"): Not found
+2019-04-29 20:23:52,273 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh.ftl"): Not found
+2019-04-29 20:23:52,274 DEBUG cache:44 - TemplateLoader.findTemplateSource("404.ftl"): Found
+2019-04-29 20:23:52,275 DEBUG cache:44 - Loading template for "404.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\404.ftl"
+2019-04-29 20:23:52,281 DEBUG cache:44 - "404.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:24:22,533 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh_CN.ftl"): Not found
+2019-04-29 20:24:22,534 DEBUG cache:44 - TemplateLoader.findTemplateSource("404_zh.ftl"): Not found
+2019-04-29 20:24:22,535 DEBUG cache:44 - TemplateLoader.findTemplateSource("404.ftl"): Found
+2019-04-29 20:24:22,536 DEBUG cache:44 - "404.ftl"("zh_CN", UTF-8, parsed): using cached since D:\工程师软件\IDEA\IntelliJ IDEA 2018.2.5\BookManage\target\classes\templates\404.ftl hasn't changed.
+2019-04-29 20:24:22,537 DEBUG cache:44 - "404.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:24:22,539 ERROR runtime:59 - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> error  [in template "404.ftl" at line 9, column 7]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${error}  [in template "404.ftl" at line 9, column 5]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:467)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:389)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:358)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:330)
+	at freemarker.core.Environment.visit(Environment.java:336)
+	at freemarker.core.Environment.process(Environment.java:309)
+	at freemarker.template.Template.process(Template.java:384)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:389)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:302)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:253)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:178)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-29 20:24:22,593 DEBUG cache:44 - Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:24:22,595 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+2019-04-29 20:24:22,596 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+2019-04-29 20:24:22,597 DEBUG cache:44 - TemplateLoader.findTemplateSource("error.ftl"): Not found
+2019-04-29 20:28:04,071 DEBUG cache:44 - Couldn't find template in cache for "login/login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:28:04,075 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 20:28:04,077 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 20:28:04,079 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 20:28:04,080 DEBUG cache:44 - Loading template for "login/login.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\login.ftl"
+2019-04-29 20:28:04,104 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:28:12,041 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 20:28:12,041 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 20:28:12,042 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 20:28:12,043 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\工程师软件\IDEA\IntelliJ IDEA 2018.2.5\BookManage\target\classes\templates\login\login.ftl hasn't changed.
+2019-04-29 20:28:12,043 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:28:45,423 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 20:28:45,425 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 20:28:45,426 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 20:28:45,427 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\工程师软件\IDEA\IntelliJ IDEA 2018.2.5\BookManage\target\classes\templates\login\login.ftl hasn't changed.
+2019-04-29 20:28:45,427 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:28:54,977  INFO usersController:83 - 到此为验证成功，进入主界面
+2019-04-29 20:35:16,537 DEBUG cache:44 - Couldn't find template in cache for "login/login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:35:16,548 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 20:35:16,550 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 20:35:16,553 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 20:35:16,554 DEBUG cache:44 - Loading template for "login/login.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\login.ftl"
+2019-04-29 20:35:16,589 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:35:27,535  INFO usersController:83 - 到此为验证成功，进入主界面
+2019-04-29 20:35:27,580 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 20:35:27,581 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 20:35:27,581 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 20:35:27,581 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\工程师软件\IDEA\IntelliJ IDEA 2018.2.5\BookManage\target\classes\templates\login\login.ftl hasn't changed.
+2019-04-29 20:35:27,582 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:36:30,326  INFO usersController:83 - 到此为验证成功，进入主界面
+2019-04-29 20:36:30,387 DEBUG cache:44 - Couldn't find template in cache for "login/login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:36:30,391 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 20:36:30,392 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 20:36:30,394 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 20:36:30,396 DEBUG cache:44 - Loading template for "login/login.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\login.ftl"
+2019-04-29 20:36:30,422 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:38:21,545  INFO usersController:83 - 到此为验证成功，进入主界面
+2019-04-29 20:38:21,549  INFO usersController:84 - 获得秘钥06b8cf9aa8ef4a493daae5bae8dd49ef3ac5
+2019-04-29 20:38:21,604 DEBUG cache:44 - Couldn't find template in cache for "login/login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:38:21,607 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 20:38:21,608 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 20:38:21,610 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 20:38:21,611 DEBUG cache:44 - Loading template for "login/login.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\login.ftl"
+2019-04-29 20:38:21,637 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:39:29,380 DEBUG cache:44 - Couldn't find template in cache for "book/books.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:39:29,385 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh_CN.ftl"): Not found
+2019-04-29 20:39:29,387 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh.ftl"): Not found
+2019-04-29 20:39:29,389 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books.ftl"): Found
+2019-04-29 20:39:29,390 DEBUG cache:44 - Loading template for "book/books.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\book\\books.ftl"
+2019-04-29 20:39:29,450 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:39:37,609 DEBUG cache:44 - Couldn't find template in cache for "login/login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:39:37,610 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 20:39:37,611 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 20:39:37,612 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 20:39:37,613 DEBUG cache:44 - Loading template for "login/login.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\login.ftl"
+2019-04-29 20:39:37,614 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:39:41,084  INFO usersController:83 - 到此为验证成功，进入主界面
+2019-04-29 20:39:41,084  INFO usersController:84 - 获得秘钥f7e2a15fa69f2a4f44a9e2aa736031e1db59
+2019-04-29 20:39:41,099 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh_CN.ftl"): Not found
+2019-04-29 20:39:41,099 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh.ftl"): Not found
+2019-04-29 20:39:41,100 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books.ftl"): Found
+2019-04-29 20:39:41,101 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed): using cached since D:\工程师软件\IDEA\IntelliJ IDEA 2018.2.5\BookManage\target\classes\templates\book\books.ftl hasn't changed.
+2019-04-29 20:39:41,101 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:53:16,101 DEBUG cache:44 - Couldn't find template in cache for "book/books.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:53:16,109 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh_CN.ftl"): Not found
+2019-04-29 20:53:16,110 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh.ftl"): Not found
+2019-04-29 20:53:16,112 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books.ftl"): Found
+2019-04-29 20:53:16,114 DEBUG cache:44 - Loading template for "book/books.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\book\\books.ftl"
+2019-04-29 20:53:16,194 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:53:17,733 DEBUG cache:44 - Couldn't find template in cache for "login/login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:53:17,734 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 20:53:17,734 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 20:53:17,736 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 20:53:17,736 DEBUG cache:44 - Loading template for "login/login.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\login.ftl"
+2019-04-29 20:53:17,737 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:53:20,356  INFO usersController:83 - 到此为验证成功，进入主界面
+2019-04-29 20:53:20,356  INFO usersController:84 - 获得秘钥2375e859a96c6a4d99a910cab0e1a83bef7e
+2019-04-29 20:53:20,380 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:53:20,380 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:53:22,711 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh_CN.ftl"): Not found
+2019-04-29 20:53:22,712 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh.ftl"): Not found
+2019-04-29 20:53:22,712 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books.ftl"): Found
+2019-04-29 20:53:22,712 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed): using cached since D:\工程师软件\IDEA\IntelliJ IDEA 2018.2.5\BookManage\target\classes\templates\book\books.ftl hasn't changed.
+2019-04-29 20:53:22,713 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:53:23,514 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:53:23,515 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:53:23,702 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:53:23,703 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:53:23,882 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:53:23,883 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:53:24,049 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:53:24,050 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:53:24,226 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:53:24,227 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:53:24,385 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:53:24,385 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:56:37,216 DEBUG cache:44 - Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:56:37,220 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+2019-04-29 20:56:37,221 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+2019-04-29 20:56:37,222 DEBUG cache:44 - TemplateLoader.findTemplateSource("error.ftl"): Not found
+2019-04-29 20:56:44,478 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+2019-04-29 20:56:44,479 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+2019-04-29 20:56:44,480 DEBUG cache:44 - TemplateLoader.findTemplateSource("error.ftl"): Not found
+2019-04-29 20:56:44,480 DEBUG cache:44 - "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+2019-04-29 20:57:55,333 DEBUG cache:44 - Couldn't find template in cache for "book/books.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:57:55,339 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh_CN.ftl"): Not found
+2019-04-29 20:57:55,341 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh.ftl"): Not found
+2019-04-29 20:57:55,343 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books.ftl"): Found
+2019-04-29 20:57:55,345 DEBUG cache:44 - Loading template for "book/books.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\book\\books.ftl"
+2019-04-29 20:57:55,432 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:57:58,390 DEBUG cache:44 - Couldn't find template in cache for "login/login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 20:57:58,390 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 20:57:58,391 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 20:57:58,393 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 20:57:58,394 DEBUG cache:44 - Loading template for "login/login.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\login.ftl"
+2019-04-29 20:57:58,396 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 20:58:02,481  INFO usersController:83 - 到此为验证成功，进入主界面
+2019-04-29 20:58:02,482  INFO usersController:84 - 获得秘钥f19246a1a5a1fa48c6ab75ca8039d696cc72
+2019-04-29 20:58:02,507 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh_CN.ftl"): Not found
+2019-04-29 20:58:02,508 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh.ftl"): Not found
+2019-04-29 20:58:02,509 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books.ftl"): Found
+2019-04-29 20:58:02,509 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed): using cached since D:\工程师软件\IDEA\IntelliJ IDEA 2018.2.5\BookManage\target\classes\templates\book\books.ftl hasn't changed.
+2019-04-29 20:58:02,510 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 21:02:06,172 DEBUG cache:44 - Couldn't find template in cache for "book/books.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 21:02:06,179 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh_CN.ftl"): Not found
+2019-04-29 21:02:06,181 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh.ftl"): Not found
+2019-04-29 21:02:06,183 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books.ftl"): Found
+2019-04-29 21:02:06,185 DEBUG cache:44 - Loading template for "book/books.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\book\\books.ftl"
+2019-04-29 21:02:06,286 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 21:02:07,794 DEBUG cache:44 - Couldn't find template in cache for "login/login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 21:02:07,796 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 21:02:07,796 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 21:02:07,797 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 21:02:07,797 DEBUG cache:44 - Loading template for "login/login.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\login.ftl"
+2019-04-29 21:02:07,799 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 21:02:11,183  INFO usersController:83 - 到此为验证成功，进入主界面
+2019-04-29 21:02:11,183  INFO usersController:84 - 获得秘钥dfbcc593a6718a4977ab4f5ab00aff32cb35
+2019-04-29 21:02:11,206 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh_CN.ftl"): Not found
+2019-04-29 21:02:11,206 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh.ftl"): Not found
+2019-04-29 21:02:11,208 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books.ftl"): Found
+2019-04-29 21:02:11,208 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed): using cached since D:\工程师软件\IDEA\IntelliJ IDEA 2018.2.5\BookManage\target\classes\templates\book\books.ftl hasn't changed.
+2019-04-29 21:02:11,208 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 21:04:08,601 DEBUG cache:44 - Couldn't find template in cache for "book/books.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 21:04:08,608 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh_CN.ftl"): Not found
+2019-04-29 21:04:08,610 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh.ftl"): Not found
+2019-04-29 21:04:08,612 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books.ftl"): Found
+2019-04-29 21:04:08,614 DEBUG cache:44 - Loading template for "book/books.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\book\\books.ftl"
+2019-04-29 21:04:08,693 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 21:04:09,137 DEBUG cache:44 - Couldn't find template in cache for "login/login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 21:04:09,139 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 21:04:09,140 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 21:04:09,142 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 21:04:09,143 DEBUG cache:44 - Loading template for "login/login.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\login.ftl"
+2019-04-29 21:04:09,145 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 21:04:12,203  INFO usersController:83 - 到此为验证成功，进入主界面
+2019-04-29 21:04:12,204  INFO usersController:84 - 获得秘钥418a22baa6f69a4056ab38babee4641c787e
+2019-04-29 21:04:12,232 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 21:04:12,233 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 21:05:22,873 DEBUG cache:44 - Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 21:05:22,879 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+2019-04-29 21:05:22,881 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+2019-04-29 21:05:22,881 DEBUG cache:44 - TemplateLoader.findTemplateSource("error.ftl"): Not found
+2019-04-29 21:05:28,953 DEBUG cache:44 - Couldn't find template in cache for "login/login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 21:05:28,955 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 21:05:28,956 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 21:05:28,959 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 21:05:28,961 DEBUG cache:44 - Loading template for "login/login.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\login.ftl"
+2019-04-29 21:05:28,990 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 21:05:32,414  INFO usersController:83 - 到此为验证成功，进入主界面
+2019-04-29 21:05:32,415  INFO usersController:84 - 获得秘钥03536066abf59a4011a8343a037ec325693c
+2019-04-29 21:05:32,447 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+2019-04-29 21:05:32,447 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+2019-04-29 21:05:32,448 DEBUG cache:44 - TemplateLoader.findTemplateSource("error.ftl"): Not found
+2019-04-29 21:05:32,448 DEBUG cache:44 - "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+2019-04-29 21:06:30,939 DEBUG cache:44 - Couldn't find template in cache for "login/login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 21:06:30,949 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 21:06:30,953 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 21:06:30,955 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 21:06:30,956 DEBUG cache:44 - Loading template for "login/login.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\login.ftl"
+2019-04-29 21:06:31,030 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 21:06:36,060  INFO usersController:83 - 到此为验证成功，进入主界面
+2019-04-29 21:06:36,061  INFO usersController:84 - 获得秘钥64c695a2a93a7a4ff3a91fea03c5332abbfe
+2019-04-29 21:06:36,086 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 21:06:36,087 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 21:06:36,087 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 21:06:36,087 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\工程师软件\IDEA\IntelliJ IDEA 2018.2.5\BookManage\target\classes\templates\login\login.ftl hasn't changed.
+2019-04-29 21:06:36,088 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 21:06:39,995  INFO usersController:83 - 到此为验证成功，进入主界面
+2019-04-29 21:06:39,996  INFO usersController:84 - 获得秘钥18634710a1329a4958a940aa619e87bf5745
+2019-04-29 21:06:40,020 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 21:06:40,023 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 21:09:41,096 DEBUG cache:44 - Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 21:09:41,104 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+2019-04-29 21:09:41,107 DEBUG cache:44 - TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+2019-04-29 21:09:41,108 DEBUG cache:44 - TemplateLoader.findTemplateSource("error.ftl"): Not found
+2019-04-29 21:10:13,677 DEBUG cache:44 - Couldn't find template in cache for "book/books.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 21:10:13,680 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh_CN.ftl"): Not found
+2019-04-29 21:10:13,681 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh.ftl"): Not found
+2019-04-29 21:10:13,683 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books.ftl"): Found
+2019-04-29 21:10:13,684 DEBUG cache:44 - Loading template for "book/books.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\book\\books.ftl"
+2019-04-29 21:10:13,740 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 21:10:27,388 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh_CN.ftl"): Not found
+2019-04-29 21:10:27,389 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books_zh.ftl"): Not found
+2019-04-29 21:10:27,390 DEBUG cache:44 - TemplateLoader.findTemplateSource("book/books.ftl"): Found
+2019-04-29 21:10:27,390 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed): using cached since D:\工程师软件\IDEA\IntelliJ IDEA 2018.2.5\BookManage\target\classes\templates\book\books.ftl hasn't changed.
+2019-04-29 21:10:27,391 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 21:10:29,105 DEBUG cache:44 - Couldn't find template in cache for "login/login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-04-29 21:10:29,106 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh_CN.ftl"): Not found
+2019-04-29 21:10:29,107 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login_zh.ftl"): Not found
+2019-04-29 21:10:29,109 DEBUG cache:44 - TemplateLoader.findTemplateSource("login/login.ftl"): Found
+2019-04-29 21:10:29,109 DEBUG cache:44 - Loading template for "login/login.ftl"("zh_CN", UTF-8, parsed) from "D:\\工程师软件\\IDEA\\IntelliJ IDEA 2018.2.5\\BookManage\\target\\classes\\templates\\login\\login.ftl"
+2019-04-29 21:10:29,113 DEBUG cache:44 - "login/login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 21:10:32,067  INFO usersController:83 - 到此为验证成功，进入主界面
+2019-04-29 21:10:32,068  INFO usersController:84 - 获得秘钥3cf7669ba8d73a423aab729afd0e38ed64c7
+2019-04-29 21:10:32,085 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-04-29 21:10:32,086 DEBUG cache:44 - "book/books.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.

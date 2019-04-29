@@ -16,7 +16,7 @@ public class TicketServiceImpl implements TicketService {
     @Autowired
     private ticketMapper ticketMapper;
     @Override
-    public int deleteByPrimaryKey(Long id) {
+    public int deleteByPrimaryKey(Integer id) {
         return ticketMapper.deleteByPrimaryKey(id);
     }
 
@@ -31,7 +31,7 @@ public class TicketServiceImpl implements TicketService {
     }
 
     @Override
-    public Ticket selectByPrimaryKey(Long id) {
+    public Ticket selectByPrimaryKey(Integer id) {
         return ticketMapper.selectByPrimaryKey(id);
     }
 
@@ -43,5 +43,20 @@ public class TicketServiceImpl implements TicketService {
     @Override
     public int updateByPrimaryKey(Ticket record) {
         return ticketMapper.updateByPrimaryKey(record);
+    }
+
+    @Override
+    public Ticket selectByUserid(Integer userid) {
+        return ticketMapper.selectByUserid(userid);
+    }
+
+    @Override
+    public int deleteByTicket(String ticket) {
+        return ticketMapper.deleteByTicket(ticket);
+    }
+
+    @Override
+    public Ticket selectByTicket(String ticket) {
+        return ticketMapper.selectByTicket(ticket);
     }
 }

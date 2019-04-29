@@ -20,4 +20,5 @@ public interface bookMapper {
     int updateByPrimaryKey(Book record);
 
     List<Book> selectAll();
+    int updateStatusById(Book book);
 }

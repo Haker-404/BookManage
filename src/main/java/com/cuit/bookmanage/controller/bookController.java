@@ -2,7 +2,9 @@ package com.cuit.bookmanage.controller;
 
 import com.cuit.bookmanage.model.Book;
 
+import com.cuit.bookmanage.model.Users;
 import com.cuit.bookmanage.service.BookService;
+import com.cuit.bookmanage.utils.ConcurrentUtils;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -13,7 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.util.ArrayList;
 import java.util.List;
-
+import com.cuit.bookmanage.model.enums.BookStatusEnum;
 
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
@@ -27,8 +29,10 @@ import static org.springframework.web.bind.annotation.RequestMethod.POST;
 public class bookController {
 
     private Logger logger = Logger.getLogger(bookController.class);
+
     @Autowired
     private BookService bookService;
+
 
     @RequestMapping(value = "/book/addbook",method = GET)
     public String addBook(){
@@ -37,9 +41,12 @@ public class bookController {
 
     @RequestMapping(value = "/books/{bookId}/delete",method = GET)
     public ModelAndView deleteBook(@PathVariable("bookId")int bookId){
+        Book book = new Book();
+        book.setId(bookId);
+        book.setStatus(BookStatusEnum.DELETE.getValue());
+        bookService.updateStatusById(book);
         ModelAndView delmodel = new ModelAndView();
         delmodel.setViewName("/book/selectAll");
-        bookService.deleteByPrimaryKey(bookId);
         return delmodel;
     }
 
@@ -66,8 +73,19 @@ public class bookController {
         books = bookService.selectAll();
         ModelAndView model = new ModelAndView();
         model.addObject("books",books);
+
+        Users host = ConcurrentUtils.getHost();
+
+        if (host != null) {
+            model.addObject("host", host);
+        }
         model.setViewName("book/books");
         return model;
+
+    }
+    @RequestMapping(value = "/index")
+    public String index(){
+        return "redirect:/book/selectAll";
 
     }
 }

@@ -2,7 +2,7 @@ package com.cuit.bookmanage.service.Impl;
 
 import com.cuit.bookmanage.mapper.usersMapper;
 import com.cuit.bookmanage.model.Users;
-import com.cuit.bookmanage.service.UsersServie;
+import com.cuit.bookmanage.service.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,11 +12,11 @@ import org.springframework.stereotype.Service;
  * @Version 1.0
  **/
 @Service
-public class UsersServiceImpl implements UsersServie {
+public class UsersServiceImpl implements UsersService {
     @Autowired
     private usersMapper usersMapper;
     @Override
-    public int deleteByPrimaryKey(Long id) {
+    public int deleteByPrimaryKey(Integer id) {
         return usersMapper.deleteByPrimaryKey(id);
     }
 
@@ -31,7 +31,7 @@ public class UsersServiceImpl implements UsersServie {
     }
 
     @Override
-    public Users selectByPrimaryKey(Long id) {
+    public Users selectByPrimaryKey(Integer id) {
         return usersMapper.selectByPrimaryKey(id);
     }
 
@@ -43,5 +43,10 @@ public class UsersServiceImpl implements UsersServie {
     @Override
     public int updateByPrimaryKey(Users record) {
         return usersMapper.updateByPrimaryKey(record);
+    }
+
+    @Override
+    public Users selectByEmail(String email) {
+        return usersMapper.selectByEmail(email);
     }
 }

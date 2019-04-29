@@ -52,4 +52,9 @@ public class BookServiceImpl implements BookService {
     public List<Book> selectAll() {
         return bookMapper.selectAll();
     }
+
+    @Override
+    public int updateStatusById(Book book) {
+        return bookMapper.updateStatusById(book);
+    }
 }

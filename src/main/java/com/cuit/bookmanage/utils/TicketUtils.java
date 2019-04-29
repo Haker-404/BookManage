@@ -16,6 +16,7 @@ public class TicketUtils {
         ticket.setUserId(uid);
         //设置t票过期时间
         Date expiredTime = new Date();
+        expiredTime.setTime(10);
         ticket.setExpiredAt(expiredTime);
         return ticket;
     }

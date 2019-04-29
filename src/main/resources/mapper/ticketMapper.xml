@@ -3,8 +3,8 @@
 <mapper namespace="com.cuit.bookmanage.mapper.ticketMapper" >
   <resultMap id="BaseResultMap" type="com.cuit.bookmanage.model.Ticket" >
     <constructor >
-      <idArg column="ID" jdbcType="DECIMAL" javaType="java.lang.Long" />
-      <arg column="USER_ID" jdbcType="DECIMAL" javaType="java.lang.Long" />
+      <idArg column="ID" jdbcType="DECIMAL" javaType="java.lang.Integer" />
+      <arg column="USER_ID" jdbcType="DECIMAL" javaType="java.lang.Integer" />
       <arg column="TICKET" jdbcType="VARCHAR" javaType="java.lang.String" />
       <arg column="EXPIRED_AT" jdbcType="TIMESTAMP" javaType="java.util.Date" />
     </constructor>
@@ -12,16 +12,41 @@
   <sql id="Base_Column_List" >
     ID, USER_ID, TICKET, EXPIRED_AT
   </sql>
-  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
     <include refid="Base_Column_List" />
     from TICKET
     where ID = #{id,jdbcType=DECIMAL}
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+<!-->除自动生成的代码外，新增的方法，主要目的通过USER_ID字段查找出Ticket对象<!-->
+  <select id="selectByUserid" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select
+    <include refid="Base_Column_List" />
+    from TICKET
+    where USER_ID = #{userid,jdbcType=DECIMAL}
+  </select>
+
+<!-->除自动生成的代码外，新增的方法，主要目的通过ticket字段查找出Ticket对象<!-->
+    <select id="selectByTicket" resultMap="BaseResultMap" parameterType="java.lang.String" >
+        select
+        <include refid="Base_Column_List" />
+        from TICKET
+        where TICKET = #{ticket,jdbcType=VARCHAR}
+    </select>
+
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
     delete from TICKET
     where ID = #{id,jdbcType=DECIMAL}
   </delete>
+
+
+  <delete id="deleteByTicket" parameterType="java.lang.String" >
+    delete from TICKET
+    where TICKET = #{ticket,jdbcType=VARCHAR}
+  </delete>
+
+
   <insert id="insert" parameterType="com.cuit.bookmanage.model.Ticket" >
     insert into TICKET (ID, USER_ID, TICKET, 
       EXPIRED_AT)
