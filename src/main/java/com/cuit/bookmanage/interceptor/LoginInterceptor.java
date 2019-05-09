@@ -4,6 +4,8 @@ import com.cuit.bookmanage.model.Ticket;
 import com.cuit.bookmanage.service.TicketService;
 import com.cuit.bookmanage.utils.CookieUtils;
 import org.apache.commons.lang3.StringUtils;
+
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -11,6 +13,7 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
+
 
 /**
  * @Author: LiJingWen
@@ -21,10 +24,11 @@ import java.util.Date;
 public class LoginInterceptor implements HandlerInterceptor {
     @Autowired
     private TicketService ticketService;
-
+    private Logger logger = Logger.getLogger(LoginInterceptor.class);
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
             throws Exception {
+        logger.info("此处应该是对于所有经过/books/下的请求进行拦截判断：");
         //没有t票，去登陆
         String t = CookieUtils.getCookie("t",request);
         if(StringUtils.isEmpty(t)){

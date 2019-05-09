@@ -9,9 +9,9 @@ import com.cuit.bookmanage.utils.ConcurrentUtils;
 import com.cuit.bookmanage.utils.MD5;
 import com.cuit.bookmanage.utils.TicketUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 
 import java.util.Date;
 
@@ -28,6 +28,7 @@ public class LoginBiz {
     @Autowired
     private TicketService ticketService;
 
+    private Logger logger = Logger.getLogger(LoginBiz.class);
     /**
      * 登录逻辑，先检查邮箱和密码，然后更新t票。
      * @return 返回最新t票
@@ -55,8 +56,6 @@ public class LoginBiz {
         }
         t = TicketUtils.next(user.getId());
         ticketService.insert(t);
-        ConcurrentUtils.setHost(user);
-
         return t.getTicket();
     }
     /**

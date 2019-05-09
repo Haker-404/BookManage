@@ -3,6 +3,7 @@ package com.cuit.bookmanage.controller;
 import com.cuit.bookmanage.biz.LoginBiz;
 import com.cuit.bookmanage.model.Users;
 import com.cuit.bookmanage.service.UsersService;
+import com.cuit.bookmanage.utils.ConcurrentUtils;
 import com.cuit.bookmanage.utils.CookieUtils;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
@@ -56,9 +58,13 @@ public class usersController {
 
     @RequestMapping(path = {"/users/logout/do"}, method = {RequestMethod.GET})
     public String doLogout(
-            @CookieValue("t") String t
+            @CookieValue("t") String t,
+            HttpServletResponse response,
+            HttpServletRequest request
+
     ) {
         loginBiz.logout(t);
+        CookieUtils.removeCookie(t,request,response);
         return "redirect:/index";
     }
 
@@ -83,6 +89,7 @@ public class usersController {
             logger.info("到此为验证成功，进入主界面");
             logger.info("获得秘钥"+t);
             return "redirect:/index";
+
         } catch (Exception e) {
             model.addAttribute("error", e.getMessage());
             return "404";

@@ -46,7 +46,18 @@ public class bookController {
         book.setStatus(BookStatusEnum.DELETE.getValue());
         bookService.updateStatusById(book);
         ModelAndView delmodel = new ModelAndView();
-        delmodel.setViewName("/book/selectAll");
+        delmodel.setViewName("/index");
+        return delmodel;
+    }
+
+    @RequestMapping(value = "/books/{bookId}/recover",method = GET)
+    public ModelAndView recoverBook(@PathVariable("bookId")int bookId){
+        Book book = new Book();
+        book.setId(bookId);
+        book.setStatus(BookStatusEnum.NORMAL.getValue());
+        bookService.updateStatusById(book);
+        ModelAndView delmodel = new ModelAndView();
+        delmodel.setViewName("/index");
         return delmodel;
     }
 
@@ -73,9 +84,7 @@ public class bookController {
         books = bookService.selectAll();
         ModelAndView model = new ModelAndView();
         model.addObject("books",books);
-
         Users host = ConcurrentUtils.getHost();
-
         if (host != null) {
             model.addObject("host", host);
         }

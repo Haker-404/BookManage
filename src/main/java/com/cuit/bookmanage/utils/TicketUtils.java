@@ -2,6 +2,7 @@ package com.cuit.bookmanage.utils;
 
 import com.cuit.bookmanage.model.Ticket;
 
+import java.util.Calendar;
 import java.util.Date;
 
 /**
@@ -15,8 +16,10 @@ public class TicketUtils {
         ticket.setTicket(UuidUtils.next());
         ticket.setUserId(uid);
         //设置t票过期时间
-        Date expiredTime = new Date();
-        expiredTime.setTime(10);
+        Calendar calendar = Calendar.getInstance();
+        calendar.add(Calendar.HOUR,1);
+        Date expiredTime;
+        expiredTime = calendar.getTime();
         ticket.setExpiredAt(expiredTime);
         return ticket;
     }
